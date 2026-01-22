@@ -14,7 +14,7 @@ ML1 In-Class
 
 # %%
 # import packages
-from turtle import color
+# from turtle import color
 from pydataset import data
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -30,7 +30,10 @@ iris.head()
 
 # %%
 # What mental models can we see from these data sets?
+# Out of the 5 features in the data set, 4 of them are quantitative and 1 is categorical.
 # What data science questions can we ask?
+# How can we predict the the species based on its quantitative features?
+# What are the most important features in determining species?
 
 # %%
 """
