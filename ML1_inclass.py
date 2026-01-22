@@ -97,9 +97,13 @@ Mild disclaimer
 # For now, ask yourself:
 
 # 1. What is the purpose of data splitting?
+# It allows us to separate our training data from our testing data, so we can evaluate the model's performance on unseen data.
 # 2. What can we learn from data testing/validation?
+# We can understand how our model performs on new data and identify any issues regarding fitting.
 # 3. How do we know if a model is working?
+# A model should be working if it performs well on both training and testing data.
 # 4. How could we find the model error?
+# We could find the model error by calculating different metrics, like accuracy and presicion.
 
 # If you want, try changing the size of the test data
 # or the number of n_neighbors and see what changes!
